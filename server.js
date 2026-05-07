@@ -11,7 +11,7 @@ const studentInfo = [
     {name:"charlie" ,age : 24, grade : "c"}
 ]
 
-app.get('/all-date',(req, res)=>{
+app.get('/all-data',(req, res)=>{
     res.json(studentInfo)
 })
 
